@@ -1,3 +1,5 @@
 language: cpp
 install:
   sudo apt-get install -y libnet1-dev libpcap-dev
+script:
+  make && make clean
