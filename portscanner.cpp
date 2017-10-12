@@ -1,6 +1,7 @@
 #include <net/if.h>
 #include <sys/socket.h>
 #include <netinet/in.h>
+#include <netinet/ip.h>
 #include <libnet.h>
 #include <pcap.h>
 #include <pthread.h>
