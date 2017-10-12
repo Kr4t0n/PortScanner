@@ -1,0 +1,4 @@
+language: cpp
+install:
+  sudo apt-get install libnet1-dev
+  sudo apt-get install libpcap-dev
