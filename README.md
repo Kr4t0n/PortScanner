@@ -10,6 +10,6 @@ Following libraries should include:
 
 # How to build
 ```
-gcc -o portscanner portscanner.c -lpcap -lnet -lpthread
+g++ -o portscanner portscanner.cpp -lpcap -lnet -lpthread
 ```
 
