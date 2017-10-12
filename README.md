@@ -2,9 +2,14 @@
 This a simple prototype of portscanner using three kind of scan mode, SOCKET_SCAN, SYN_SCAN and FIN_SCAN.
 
 # Dependency
-This prototype is mainly implemented under Linux.
+This prototype is mainly implemented under Linux.  
 Following libraries should include:
 
 * Libnet
 * Libpcap
+
+# How to build
+```
+gcc -o portscanner portscanner.c -lpcap -lnet -lpthread
+```
 
