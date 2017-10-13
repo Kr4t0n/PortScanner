@@ -419,7 +419,7 @@ void output_scanresult(struct scaninfo_struct scaninfo) {
 int main(int argc, char** argv) {
 	struct scaninfo_struct scaninfo;
 	if(parse_scanpara(argc, argv, &scaninfo)) {
-		printf("Usage %s SOCKET_SCAN/SIN_SCAN/FIN__SCAN interface IPaddr startport endport\n", argv[0]);
+		printf("Usage %s SOCKET_SCAN/SIN_SCAN/FIN_SCAN interface IPaddr startport endport\n", argv[0]);
 		return 1;
 	}
 	if(scaninfo.scan_type == SOCKET_SCAN)
