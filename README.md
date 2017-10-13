@@ -22,10 +22,11 @@ make && make clean
 
 # Usage
 ```bash
-./portscanner SOCKET_SCAN/SIN_SCAN/FIN__SCAN interface IPaddr startport endport
+./portscanner SOCKET_SCAN/SIN_SCAN/FIN_SCAN interface IPaddr startport endport
 ```
 
 # Example
 ![1](media/1.png)
+
 
 
